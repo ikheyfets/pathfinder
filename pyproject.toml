@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "party"
+version = "0.1.0"
+description = "Party Analyzer, Resolver, and Toolbox for You"
+authors = ["Igor Kheyfets <i.a.kheyfets@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+package-mode = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
